@@ -1,0 +1,6 @@
+.global-section {
+	background-color: var(--colors-bk-default);
+	min-height: 30vh;
+}
+.global-error {
+}

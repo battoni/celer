@@ -1,0 +1,4 @@
+documentReady(function() {
+	
+	initTopNav();
+});

@@ -1,0 +1,4 @@
+.is-vcentered {
+	display: flex;
+	align-items: center;
+}
