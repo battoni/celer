@@ -1,0 +1,19 @@
+Here you will find the general idea of this boilerplate step by step:
+
+- Split the code into DEV / PROD environments - 100%
+- Minify All JS - 100%
+- Minify All CSS - 100%
+- Compress All images and assets - 100%
+- Create static pages from PHP to HTML - 10%
+	
+	This will be the heart of the above goal:
+
+	<?php
+
+		$file = file_get_contents("putALinkHere");
+		file_put_contents(__DIR__ . "/putANameHere.html", $file);
+
+	?>
+
+- Minify All HTML - 0%
+- Convert JS into ES6 with a very easy approach

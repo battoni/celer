@@ -1,4 +1,4 @@
-<nav class="navbar topnav" role="navigation" aria-label="main navigation">
+<nav class="navbar topnav cl_topnav" role="navigation" aria-label="main navigation">
 
 	<div class="navbar-brand">
 
@@ -7,9 +7,11 @@
 		</a>
 
 		<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="mainNav">
+
 			<span class="topnav-burger" aria-hidden="true"></span>
 			<span class="topnav-burger" aria-hidden="true"></span>
 			<span class="topnav-burger" aria-hidden="true"></span>
+			
 		</a>
 
 	</div>
@@ -20,7 +22,7 @@
 
 		<div class="navbar-end">
 
-			<a class="navbar-item <?php if($page == "home") echo "active"; ?>" href="/home">Home</a>
+			<a class="navbar-item <?php if($page == "index") echo "active"; ?>" href="/">Home</a>
 			
 		</div>
 

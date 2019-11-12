@@ -1,0 +1,11 @@
+@import url("../../other/requirements/reset.css");
+@import url("../../other/requirements/variables.css");
+@import url("../../other/requirements/global.css");
+
+@import url("../../components/button.css");
+@import url("../../components/footer.css");
+@import url("../../components/main.css");
+@import url("../../components/subtitle.css");
+@import url("../../components/paragraph.css");
+@import url("../../components/title.css");
+@import url("../../components/topnav.css");

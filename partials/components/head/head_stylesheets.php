@@ -1,37 +1,16 @@
 <!-- Main CSS Framework -->
-	<link rel="stylesheet" type="text/css" href="/assets/libs/bulma-css/bulma.min.css">
-<!-- Main CSS Framework -->
-
+	<link rel="stylesheet" type="text/css" 
+		  href="../../../assets/css/other/handlers/_framework.css">
 <!-- Global Fonts -->
-	<!-- Add your global fonts here ... -->
-<!-- Global Fonts -->
-
-<!-- Specific Fonts -->
-	<?php if($page == "home") { ?>
-		<!-- Add your specific fonts here ... -->
-	<?php } ?>
-<!-- Specific Fonts -->
-
+	<link rel="stylesheet" type="text/css" 
+		  href="../../../assets/css/other/handlers/_fonts.css">
 <!-- Global Libs -->
-	<!-- Add your global libs here ... -->
-<!-- Global Libs -->
-
+	<link rel="stylesheet" type="text/css" 
+		  href="../../../assets/css/other/handlers/_libs.css">
 <!-- Global CSS -->
-	<!-- CSS => other-styles -->
-		<link rel="stylesheet" type="text/css" href="/assets/css/other/requirements/reset.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/other/requirements/colors.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/other/requirements/global.css">
-	<!-- CSS => other-styles -->
-
-	<!-- CSS => components-styles -->
-		<link rel="stylesheet" type="text/css" href="/assets/css/components/topnav.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/components/main.css">
-		<link rel="stylesheet" type="text/css" href="/assets/css/components/footer.css">
-	<!-- CSS => components-styles -->
-<!-- Global CSS -->
+	<link rel="stylesheet" type="text/css" 
+		  href="../../../assets/css/other/handlers/_components.css">
 
 <!-- Specific CSS *** -->
-	<?php if($page == "home") { ?>
-		<!-- Add your specific css here ... -->
-	<?php } ?>
-<!-- *** Specific CSS	 -->
+	<link rel="stylesheet" type="text/css" 
+		  href="../../../assets/css/pages/<?php echo $page; ?>/_<?php echo $page; ?>.css">
