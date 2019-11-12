@@ -1,12 +1,13 @@
 # Settings checklist 
-# 1. Define your local dev enviroment URL here: $urlName
-# 2. Using Find+Replace search for #REPLACEME# and replase for your $urlName
-# 3. Use the code bellow to generate self signed certificates in order to use HTTPS locally
+
+# 1. Define your local dev environment URL here: $urlName
+# 2. Using Find+Replace search for #REPLACEME# and replace for your $urlName
+# 3. Use the code below to generate self-signed certificates in order to use HTTPS locally
 
     # sudo openssl req -x509  -days 365  -sha256  -newkey rsa:2048  -nodes  -keyout /etc/ssl/private/#REPLACEME#.key  -out /etc/ssl/certs/#REPLACEME#-cert.pem
 
-# 4. Double check your project path in 'root'
-# 5. Double check the friend urls settings
+# 4. Double-check your project path in 'root'
+# 5. Double-check the friendly URLs settings
 
 server {
     listen 443 ssl;

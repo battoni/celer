@@ -5,6 +5,7 @@ function initTopNav() {
 	if ($navbarBurgers.length > 0) {
 
 		$navbarBurgers.forEach( el => {
+
 			el.addEventListener('click', () => {
 
 				const target 	= el.dataset.target;
@@ -12,7 +13,11 @@ function initTopNav() {
 
 				el.classList.toggle('is-active');
 				$target.classList.toggle('is-active');
+
 			});
+
 		});
+
 	}
+	
 }

@@ -1,1 +1,1 @@
-	<main class="main-content">
+<main class="cl_main">
