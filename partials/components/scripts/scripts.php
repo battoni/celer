@@ -4,12 +4,12 @@
 
 	<!-- Global JS -->
 		<script src="./assets/js/other/helpers.js"></script>
-		<script src="./assets/js/other/handler.js"></script>
 		<script src="./assets/js/components/topnav.js"></script>
+		<script src="./assets/js/other/handler.js"></script>
 	<!-- Global JS -->
 	
 	<!-- Specific JS *** -->
-		<?php if($page == "index") { ?>
+		<?php if(constant('page') == 'index') { ?>
 			<!-- Add your specific JS libs here -->
 		<?php } ?>
 	<!-- Specific JS *** -->

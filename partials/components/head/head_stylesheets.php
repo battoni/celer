@@ -10,7 +10,6 @@
 <!-- Global CSS -->
 	<link rel="stylesheet" type="text/css" 
 		  href="../../../assets/css/other/handlers/_components.css">
-
 <!-- Specific CSS *** -->
 	<link rel="stylesheet" type="text/css" 
 		  href="../../../assets/css/pages/<?php echo $page; ?>/_<?php echo $page; ?>.css">

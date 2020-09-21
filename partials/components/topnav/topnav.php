@@ -22,7 +22,7 @@
 
 		<div class="navbar-end">
 
-			<a class="navbar-item <?php if($page == "index") echo "active"; ?>" href="/">Home</a>
+			<a class="navbar-item <?php if(constant('page') == 'index') echo "active"; ?>" href="/">Home</a>
 			
 		</div>
 
